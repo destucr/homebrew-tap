@@ -7,7 +7,7 @@ cask "switchboard" do
   desc "Menu bar app showing every local port with its project"
   homepage "https://github.com/destucr/Switchboard"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Switchboard.app"
   binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
