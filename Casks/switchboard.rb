@@ -1,6 +1,6 @@
 cask "switchboard" do
-  version "1.8.2"
-  sha256 "b666bf4d42be23380ffaaae2905a14a05961da7518ec596466714e9a02b2e812"
+  version "1.8.3"
+  sha256 "05cde765154d6b51c81cf848361e79305210a23e35f8d98376a830f8d66b5d48"
 
   url "https://github.com/destucr/Switchboard/releases/download/v#{version}/Switchboard-#{version}.zip"
   name "Switchboard"
@@ -10,6 +10,7 @@ cask "switchboard" do
   depends_on macos: :sonoma
 
   app "Switchboard.app"
+  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
   binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
   binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
   binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
