@@ -11,18 +11,6 @@ cask "switchboard" do
 
   app "Switchboard.app"
   binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
-  binary "#{appdir}/Switchboard.app/Contents/MacOS/Switchboard", target: "switchboard"
 
   zap trash: [
     "~/Library/Application Support/Switchboard",
