@@ -1,6 +1,6 @@
 cask "keypause" do
-  version "1.0.2"
-  sha256 "46a62f1690319e6f342301e0d4fca1b7711b35ef01fd6d1f963ffb316885be4e"
+  version "1.0.3"
+  sha256 "a55deb1bb5cfd6a496d168b162347900039003c67b6ae61747f408effd9093ba"
 
   url "https://github.com/destucr/Keypause/releases/download/v#{version}/Keypause.dmg"
   name "Keypause"
@@ -10,6 +10,7 @@ cask "keypause" do
   depends_on macos: :sonoma
 
   app "Keypause.app"
+  binary "#{appdir}/Keypause.app/Contents/Resources/keypause"   # the keypause command
 
   # Ad-hoc signed, not notarized: clear the quarantine flag so it opens without a Gatekeeper warning.
   postflight do
