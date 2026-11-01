@@ -13,9 +13,8 @@ cask "keypause" do
   binary "#{appdir}/Keypause.app/Contents/Resources/keypause"   # the keypause command
 
   # Ad-hoc signed, not notarized: clear the quarantine flag so it opens without a Gatekeeper warning.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Keypause.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Keypause.app"]
   end
 
   zap trash: "~/Library/Preferences/com.destucr.Keypause.plist"
