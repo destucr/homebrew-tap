@@ -1,6 +1,6 @@
 cask "keypause" do
-  version "1.0.3"
-  sha256 "a55deb1bb5cfd6a496d168b162347900039003c67b6ae61747f408effd9093ba"
+  version "1.0.4"
+  sha256 "ac129dd3ab4b2478ad077cccbb7f3c402515e07e4c065443eb0cef978d0c3323"
 
   url "https://github.com/destucr/Keypause/releases/download/v#{version}/Keypause.dmg"
   name "Keypause"
