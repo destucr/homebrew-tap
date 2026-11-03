@@ -1,6 +1,6 @@
 cask "switchboard" do
-  version "1.12.5"
-  sha256 "225b7a461c13d0013804e2f7b7b89c7e52e51d85dfecb1f753c008b800257b30"
+  version "1.12.6"
+  sha256 "61888de45149fb8d94db2750fd70b61395b9ed633a2d0dc823691da871246dd5"
 
   url "https://github.com/destucr/Switchboard/releases/download/v#{version}/Switchboard-#{version}.zip"
   name "Switchboard"
